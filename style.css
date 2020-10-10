@@ -1,0 +1,147 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.holder {
+	background: rgb(92,4,207);
+background: radial-gradient(circle, rgba(92,4,207,1) 5%, rgba(180,14,204,1) 72%, rgba(93,18,207,1) 100%);
+        font-family: cursive;        
+        height: 650px;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #player{
+      	color:white;
+      	font-size: 18px;
+      }
+
+      .container {
+        width: 50%;
+        height: 300px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+
+
+      .box {
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        background-color: #8473A9;
+        text-align: center;
+        vertical-align: center;
+        font-size: 50px;
+        /*font-weight: 900;*/
+        cursor: pointer;
+            /*animation: lightbox;*/
+            animation-fill-mode: forwards;
+      }
+
+	
+	/*Animation*/
+
+      @keyframes lightbox {
+	  0% {
+	    background-color: #92B7FE;
+	    opacity: 0.4;
+	  }
+	  50% {
+	    /*background-color: #92B7FE;*/
+        /*opacity: 0.2;*/
+	  }
+
+	  100% {
+	    background-color: #92B7FE;
+	  }
+	}
+
+
+	.box1 {
+
+        animation-delay:0.4s;
+      }
+
+
+	.box2 {
+        animation-delay:2.5s;
+      }
+
+
+      .box3 {
+   
+        animation-delay:1.7s;
+      }
+
+
+      .box4 {
+  
+        animation-delay:2.5s;
+      }
+
+
+      .box5 {
+        animation-delay:0.9s;
+      }
+
+
+      .box6 {
+        animation-delay:2.5s;
+      }
+
+
+      .box7 {
+        animation-delay:2.1s;
+      }
+
+
+      .box8 {
+        animation-delay:2.5s;
+      }
+
+
+      .box9 {
+        animation-delay:1.3s;
+      }
+
+
+      .box:hover {
+      	background-color: white;
+        opacity: 0.4;
+      }
+.table{
+    transition: 2s;
+}
+      .table h2 {
+        color: #0d8b70;
+        display: none;
+      }
+
+      .table button {
+      	width: 80px;
+      	height: 25px;
+        border: none;
+        background: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: cursive;
+        cursor: pointer;
+        margin: 11px;
+
+      }
+
+      .table button:hover {
+        color:green;
+        opacity: 0.4;
+      }
+
+      #message{
+        color: white;
+      }
